@@ -1,0 +1,74 @@
+
+
+.input-style {
+  margin: 10px;
+  width: 170px;
+}
+
+.div-error {
+  display: inline-block;
+  border: 1px black dotted;
+  padding: 10px;
+}
+
+.span-error {
+  color: red;
+}
+
+label {
+  display: inline-block;
+  min-width: 100px;
+}
+
+.container-table {
+  vertical-align: top;
+  display: inline-block;
+}
+
+.item-user {
+  width: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  border: 1px black solid;
+}
+
+.edit, .remove, .view {
+  box-sizing: border-box;
+  vertical-align: middle;
+  border: none;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.edit:hover, .remove:hover, .view:hover, .add:hover, .save:hover, .cancel:hover {
+  box-sizing: border-box;
+  box-shadow: -2px 2px 4px grey;
+}
+
+.add {
+  display: block;
+  margin-bottom: 10px;
+  width: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+}
+
+.edit {
+  background-color: green;
+  color: white;
+}
+
+.remove, .cancel {
+  background-color: red;
+}
+
+.save, .cancel {
+  box-sizing: border-box;
+  border: none;
+  margin-right: 5px;
+  border-radius: 5px;
+  width: 55px;
+}

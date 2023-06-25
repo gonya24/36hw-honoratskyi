@@ -1,0 +1,34 @@
+td {
+  border: 1px black solid;
+  text-align: center;
+  min-width: 100px;
+  padding: 5px;
+}
+
+.div-non {
+  border: 1px red dotted;
+  padding: 15px;
+  margin: 0;
+  font-size: 20px;
+  height: 20px;
+}
+
+ol {
+  width: 50%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+h2 + table {
+  margin: 0 auto;
+}
+
+#container {
+  min-height: 100px;
+  display: flex;
+}
+
+#containerAdd {
+  padding: 20px;
+}
+
